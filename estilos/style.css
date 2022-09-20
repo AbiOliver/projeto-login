@@ -32,6 +32,9 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.497);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 div#imagem{
     background:  #5f2c82 url('../Imagens/pexels-photo-804269.jpg') no-repeat center center;
